@@ -1,0 +1,13 @@
+# Core dependencies
+SpeechRecognition==3.10.0  # Main speech recognition library
+pydub==0.25.1             # Audio format conversion
+python-dotenv==1.0.0       # Environment variable management
+
+# Audio processing dependencies
+ffmpeg-python==0.2.0      # FFmpeg wrapper (alternative to system FFmpeg)
+soundfile==0.12.1          # Additional audio file support
+
+# Optional (uncomment if needed)
+# PyAudio==0.2.13          # For microphone input
+# numpy==1.24.4            # For audio processing
+# scipy==1.10.1            # For advanced signal processing
